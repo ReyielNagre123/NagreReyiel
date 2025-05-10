@@ -1,0 +1,121 @@
+/* General Page Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h4, h5, h6 {
+    color: #0d6efd;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  /* Navbar */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  /* Section Titles */
+  .container h2 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  
+  /* Faculty Images */
+  .rounded-circle {
+    border: 2px solid #0d6efd;
+    padding: 3px;
+  }
+  
+  /* Forms */
+  form input, form textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    background-color: #0d6efd;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #084298;
+  }
+  
+  /* Alerts */
+  .alert {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  
+  /* Footer (optional) */
+  footer {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+/* Smooth Transitions for All Elements */
+* {
+    transition: all 0.3s ease; /* Smooth transition for all elements */
+  }
+  
+  /* Button Hover Effects */
+  button,
+  a.btn {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover Effect for Buttons */
+  button:hover,
+  a.btn:hover {
+    background-color: #0056b3; /* Change to a darker shade for hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+  }
+  
+  /* Smooth Transition for Links */
+  a {
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+  
+  /* Hover Effect for Links */
+  a:hover {
+    color: #0056b3; /* Change link color on hover */
+    text-decoration: underline; /* Underline the link */
+  }
+  
+  /* Add shadows and smooth transition effects for cards */
+  .card {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Hover Effect for Cards */
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  /* Navbar Transition */
+  .navbar {
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar:hover {
+    background-color: #003366;
+  }
+  
+  /* Smooth transitions for footer hover effects */
+  footer:hover {
+    background-color: #003366;
+    color: #ffffff;
+  }
+
+  
+    
